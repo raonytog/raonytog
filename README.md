@@ -1,7 +1,6 @@
 ### Hi there 👋
 
-Ranone aqui!
-
+Um dia eu boto algo aqui
 <!--
 **raonytog/raonytog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

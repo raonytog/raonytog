@@ -1,7 +1,8 @@
-### Olá! 👋 ###
+### Hey, there! 👋 ###
 
-Estudante de Ciência da Computacao na Universidade Federal do Espírito Santo, no 3º período.
-Estou estudando as linguagens:
+I'm a 19yo Computer Science student at Universidade Federal do Espírito Santo, in Brazil. Also, i'm at the third semester and learning the languages:
 * C
-* Python
+* Python 
 * Java
+
+

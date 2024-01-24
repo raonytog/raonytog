@@ -8,17 +8,14 @@
 #include <string.h>
 
 typedef struct self{
-    char name[10];
+    char name[10], role[20], mainSpokenLanguage[10], secondSpokenLanguage[10];
     int age;
-    char role[20];
-    char mainSpokenLanguage[10];
-    char secondSpokenLanguage[10];
 } self;
 
 self * InitMyself () {
     self * me = (self *) malloc(sizeof(self));
-    strcpy(me->name, "Raony");
     me->age = 19;
+    strcpy(me->name, "Raony");
     strcpy(me->role, "Comp.Sci student");
     strcpy(me->mainSpokenLanguage, "pt_BR");
     strcpy(me->secondSpokenLanguage, "en_US");
@@ -29,9 +26,7 @@ void HeyThere (self * myself) {
     printf("\n-======================@==========================-");
     printf("\nHi!, im %s, a Comp.Sci student at third semester\n", myself->name);
     printf("I'm learning new languages:\n");
-    printf("* C\n");
-    printf("* Python\n");
-    printf("* Java\n");
+    printf("* C\n");    printf("* Python\n");    printf("* Java\n");
     printf("\nThanks for visiting my profile!\n");
 }
 

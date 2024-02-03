@@ -20,8 +20,8 @@ self * InitMyself () {
     me->age = 19;
     strcpy(me->name, "Raony");
     strcpy(me->role, "Comp.Sci student");
-    strcpy(me->mainSpokenLanguage, "pt_BR");
-    strcpy(me->secondSpokenLanguage, "en_US");
+    strcpy(me->mainLanguage, "pt_BR");
+    strcpy(me->secondLanguage, "en_US");
     return me;
 }
 

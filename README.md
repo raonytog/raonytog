@@ -11,7 +11,7 @@
 #include <string.h>
 
 typedef struct self{
-    char name[10], role[20], mainSpokenLanguage[10], secondSpokenLanguage[10];
+    char name[10], role[20], mainLanguage[10], secondLanguage[10];
     int age;
 } self;
 

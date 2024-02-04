@@ -21,7 +21,7 @@ self * InitMyself () {
 void HeyThere (self * myself) {
     printf("\n-======================@==========================-");
     printf("\nHi!, im %s, a Comp.Sci student at third semester\n", myself->name);
-    printf("I'm learning new languages:\n");
+    printf("I'm learning:\n");
     printf("* C\n");    printf("* Python\n");    printf("* Java\n");
     printf("\nThanks for visiting my profile!\n");
 }

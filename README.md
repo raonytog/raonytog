@@ -4,12 +4,12 @@
 #include <string.h>
 
 typedef struct self{
-    char name[10], role[20], mainLanguage[10], secondLanguage[10];
+    char name[6], role[17], mainLanguage[6], secondLanguage[6];
     int age;
 } self;
 
 self * InitMyself () {
-    self * me = (self *) malloc(sizeof(self));
+    self *me = (self*) malloc(sizeof(self));
     me->age = 19;
     strcpy(me->name, "Raony");
     strcpy(me->role, "Comp.Sci student");
@@ -18,22 +18,23 @@ self * InitMyself () {
     return me;
 }
 
-void HeyThere (self * myself) {
+void HeyThere (self *myself) {
     printf("\n-======================@==========================-");
     printf("\nHi!, im %s, a Comp.Sci student at third semester\n", myself->name);
-    printf("I'm learning:\n");
-    printf("* C\n");    printf("* Python\n");    printf("* Java\n");
-    printf("\nThanks for visiting my profile!\n");
+    printf("I'm current learning: C, Python, Java and Swift\n");
+    printf("\n-======================@==========================-");
 }
 
-void GoodBye (self * myself) {
+void GoodBye (self *myself) {
+    printf("\n-======================@==========================-");
+    printf("Thanks for visiting my profile!\n");
     printf("See you soon, friend!\n");
     printf("-======================@==========================-\n");
     free(myself);
 }
 
 int main () {
-    self * myself = InitMyself();
+    self *myself = InitMyself();
     HeyThere(myself);
     GoodBye(myself);
     return 0;

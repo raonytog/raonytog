@@ -1,5 +1,5 @@
 ```c
-#include <stdio.h>
+#include <stdio.h> 
 #include <stdlib.h>
 #include <string.h>
 
@@ -10,7 +10,7 @@ typedef struct self{
 
 self * InitMyself () {
     self *me = (self*) malloc(sizeof(self));
-    me->age = 19;
+    me->age = 20;
     strcpy(me->name, "Raony");
     strcpy(me->role, "Comp.Sci student");
     strcpy(me->mainLanguage, "pt_BR");
@@ -20,8 +20,8 @@ self * InitMyself () {
 
 void HeyThere (self *myself) {
     printf("\n-======================@==========================-");
-    printf("\nHi!, im %s, a Comp.Sci student at third semester\n", myself->name);
-    printf("I'm current learning: C, Python, Java and Swift\n");
+    printf("\nHi!, im %s, a Comp.Sci student in third semester at UFES\n", myself->name);
+    printf("Current learning: C, Python, Java and Swift\n");
     printf("\n-======================@==========================-");
 }
 
@@ -40,5 +40,3 @@ int main () {
     return 0;
 }
 ```
-
-This is probably unnecessary big

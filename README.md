@@ -8,7 +8,7 @@ typedef struct self{
     int age;
 } self;
 
-self * InitMyself () {
+self *InitMyself () {
     self *me = (self*) malloc(sizeof(self));
     me->age = 20;
     strcpy(me->name, "Raony");

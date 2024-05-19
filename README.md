@@ -3,8 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MAX 20
+
 typedef struct self{
-    char name[6], role[17], mainLanguage[6], secondLanguage[6];
+    char name[MAX], role[MAX], mainLanguage[MAX], secondLanguage[MAX];
     int age;
 } self;
 
@@ -20,8 +22,9 @@ self *InitMyself () {
 
 void HeyThere (self *myself) {
     printf("\n-======================@==========================-");
-    printf("\nHi!, im %s, a Comp.Sci student in third semester at UFES\n", myself->name);
-    printf("Current learning: C, Python, Java and Swift\n");
+    printf("\nHi!, im a Comp.Sci student in third semester at UFES\n");
+    printf("Also, I have 3 years of experience with Adobe PhotoShop");
+    printf("Am I current learning: C (1yo), Python(2yo), Java(-1yo) and Swift(-1yo)\n");
     printf("\n-======================@==========================-");
 }
 

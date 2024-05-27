@@ -10,7 +10,7 @@ typedef struct self{
     int age;
 } self;
 
-self *InitMyself () {
+self *__Init__ () {
     self *me = (self*) malloc(sizeof(self));
     me->age = 20;
     strcpy(me->name, "Raony");
@@ -37,7 +37,7 @@ void GoodBye (self *myself) {
 }
 
 int main () {
-    self *myself = InitMyself();
+    self *myself = __Init__();
     HeyThere(myself);
     GoodBye(myself);
     return 0;

@@ -21,15 +21,15 @@ self *__Init__ () {
 }
 
 void HeyThere (self *myself) {
-    printf("\n-======================@==========================-");
-    printf("\nHi!, im a Comp.Sci student in third semester at UFES\n");
-    printf("Also, I have 3 years of experience with Adobe PhotoShop");
-    printf("Am I current learning: C (1yo), Python(2yo), Java(-1yo) and Swift(-1yo)\n");
-    printf("\n-======================@==========================-");
+    printf("\n-======================@==========================-\n");
+    printf("Hi!, im a Comp.Sci student in third semester at UFES\n");
+    printf("Also, I have 3 years of experience with Adobe PhotoShop\n");
+    printf("Am I current learning: C (1yo), Python(2yo), Java(-1yo) and Swift(-1yo)");
+    printf("\n-======================@==========================-\n");
 }
 
 void GoodBye (self *myself) {
-    printf("\n-======================@==========================-");
+    printf("\n-======================@==========================-\n");
     printf("Thanks for visiting my profile!\n");
     printf("See you soon, friend!\n");
     printf("-======================@==========================-\n");

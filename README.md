@@ -49,7 +49,7 @@ int main () {
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raonytog&size_weight=0.0005&count_weight=0.3&layout=compact&theme=github_dark">
 </p>
 
-<div id="header">
+<div>
   <img src="https://komarev.com/ghpvc/?username=raonytog&style=for-the-badge&color=blue" alt=""/>
 </div>
 

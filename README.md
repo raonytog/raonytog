@@ -13,7 +13,7 @@ typedef struct self{
 self *__Init__ () {
     self *me = (self*) malloc(sizeof(self));
     me->age = 20;
-    strcpy(me->name, "Raony");
+    strcpy(me->name, "Ray");
     strcpy(me->role, "Comp.Sci student");
     strcpy(me->mainLanguage, "pt_BR");
     strcpy(me->secondLanguage, "en_US");

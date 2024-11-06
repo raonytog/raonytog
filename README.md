@@ -1,47 +1,41 @@
-```c
-#include <stdio.h> 
-#include <stdlib.h>
-#include <string.h>
+```java
+class Ray {
+  private String name;
+  private String mainLanguage;
+  private String secondLanguage;
+  private int age;
 
-#define MAX 20
+  public Ray() {
+    this.name = "Ray";
+    this.mainLanguage = "pt-BR";
+    this.secondLanguage = "en-US";
+    this.age = 20;
+  }
 
-typedef struct self{
-    char name[MAX], role[MAX], mainLanguage[MAX], secondLanguage[MAX];
-    int age;
-} self;
+  public void HeyThere() {
+    System.out.println("\n-======================@==========================-");
+    System.out.println("Hi! I'm a Comp.Sci student in the fourth semester at UFES.");
+    System.out.println("I also have 7 years of experience with Adobe Photoshop.");
+    System.out.println("I'm currently learning: C/C++, Python, Java, Swift.");
+    System.out.println("-======================@==========================-\n");
+  }
 
-self *__Init__ () {
-    self *me = (self*) malloc(sizeof(self));
-    me->age = 20;
-    strcpy(me->name, "Ray");
-    strcpy(me->role, "Comp.Sci student");
-    strcpy(me->mainLanguage, "pt_BR");
-    strcpy(me->secondLanguage, "en_US");
-    return me;
+  public void GoodBye() {
+    System.out.println("\n-======================@==========================-");
+    System.out.println("Thanks for visiting my profile!");
+    System.out.println("See you soon, friend!");
+    System.out.println("-======================@==========================-\n");
+  }
 }
 
-void HeyThere (self *myself) {
-    printf("\n-======================@==========================-\n");
-    printf("Hi!, im a Comp.Sci student in third semester at UFES\n");
-    printf("Also, I have 7 years of experience with Adobe PhotoShop\n");
-    printf("Am I current learning: C (1y), Python(2y), Java(<1y) and Swift(<1y)");
-    printf("\n-======================@==========================-\n");
+public class Main {
+  public static void main(String[] args) {
+    Ray myself = new Ray();
+    myself.HeyThere();
+    myself.GoodBye();
+  }
 }
 
-void GoodBye (self *myself) {
-    printf("\n-======================@==========================-\n");
-    printf("Thanks for visiting my profile!\n");
-    printf("See you soon, friend!\n");
-    printf("-======================@==========================-\n");
-    free(myself);
-}
-
-int main () {
-    self *myself = __Init__();
-    HeyThere(myself);
-    GoodBye(myself);
-    return 0;
-}
 ```
 <p align="center">
   <!-- <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=raonytog&show_icons=true&theme=github_dark"> -->

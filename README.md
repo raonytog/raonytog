@@ -1,12 +1,12 @@
 ```java
-class Ra {
+class Ray {
     private String name;
     private String mainLanguage;
     private String secondLanguage;
     private int age;
 
-    public Ra() {
-        this.name = "Ra";
+    public Ray() {
+        this.name = "Ray";
         this.mainLanguage = "pt-BR";
         this.secondLanguage = "en-US";
         this.age = 20;
@@ -30,7 +30,7 @@ class Ra {
 
 public class Main {
     public static void main(String[] args) {
-        Ra myself = new Ra();
+        Ray myself = new Ra();
         myself.HeyThere();
         myself.GoodBye();
     }

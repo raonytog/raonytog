@@ -23,7 +23,7 @@ class Ray {
     public void GoodBye() {
         System.out.println("\n-======================@==========================-");
         System.out.println("Thanks for visiting my profile!");
-        System.out.println("See you soon, friend!");
+        System.out.println("See you soon, buddy!");
         System.out.println("-======================@==========================-\n");
     }
 }

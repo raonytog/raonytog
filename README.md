@@ -9,7 +9,7 @@ class Ray {
         this.name = "Ray";
         this.mainLanguage = "pt-BR";
         this.secondLanguage = "en-US";
-        this.age = 20;
+        this.age = 21;
     }
 
     public void HeyThere() {

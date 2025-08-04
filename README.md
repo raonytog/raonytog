@@ -15,8 +15,9 @@ class Ray {
     public void HeyThere() {
         System.out.println("\n-======================@==========================-");
         System.out.println("Hi! I'm a Comp.Sci student in the fifth semester at UFES.");
-        System.out.println("I also have 7 years of experience with Adobe Photoshop.");
-        System.out.println("I'm currently learning: C/C++, Python, Java, Swift.");
+        System.out.println("Also, I have 7y of experience with Adobe Photoshop.");
+        System.out.println("I have experience with C/C++, Python, Java and Swift.");
+        System.out.println("And also with Pandas, SpringBoot, Bootstrap and Thymeleaf.");
         System.out.println("-======================@==========================-\n");
       }
 

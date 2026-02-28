@@ -14,10 +14,10 @@ class Ray {
 
     public void HeyThere() {
         System.out.println("\n-======================@==========================-");
-        System.out.println("Hi! I'm a Comp.Sci student in the sixth semester at UFES.");
+        System.out.println("Hi! I'm a Comp.Sci student in the seventh semester at UFES.");
         System.out.println("Also, I have experience in GFX with Adobe Photoshop.");
-        System.out.println("I have experience with C/C++, Python, Java and Swift.");
-        System.out.println("Pandas, SpringBoot, Bootstrap and Thymeleaf too!");
+        System.out.println("I have experience with C/C++, Python, Java, Swift, JavaScript, TypeScript");
+        System.out.println("Pandas, SpringBoot, Bootstrap, Thymeleaf, Nest.JS, Next.JS, Prisma, Postgree");
         System.out.println("-======================@==========================-\n");
       }
 

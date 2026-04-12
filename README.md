@@ -9,7 +9,7 @@ class Ray {
         this.name = "Ray";
         this.mainLanguage = "pt-BR";
         this.secondLanguage = "en-US";
-        this.age = 21;
+        this.age = 22;
     }
 
     public void HeyThere() {
@@ -17,7 +17,7 @@ class Ray {
         System.out.println("Hi! I'm a Comp.Sci student in the seventh semester at UFES.");
         System.out.println("Also, I have experience in GFX with Adobe Photoshop.");
         System.out.println("I have experience with C/C++, Python, Java, Swift, JavaScript, TypeScript");
-        System.out.println("Pandas, SpringBoot, Bootstrap, Thymeleaf, Nest.JS, Next.JS, Prisma, Postgree");
+        System.out.println("React, Pandas, SpringBoot, Bootstrap, Thymeleaf, Nest.JS, Next.JS, Prisma, Postgree");
         System.out.println("-======================@==========================-\n");
       }
 

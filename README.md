@@ -15,23 +15,22 @@ class Ray {
     public void HeyThere() {
         System.out.println("\n-======================@==========================-");
         System.out.println("Hi! I'm a Comp.Sci student in the seventh semester at UFES.");
-        System.out.println("Also, I have experience in GFX with Adobe Photoshop.");
-        System.out.println("I have experience with C/C++, Python, Java, Swift, JavaScript, TypeScript");
-        System.out.println("React, Pandas, SpringBoot, Bootstrap, Thymeleaf, Nest.JS, Next.JS, Prisma, Postgree");
+        System.out.println("I have experience a few moderns programming languages like C/C++, Python, Java, Swift, TypeScript");
+        System.out.println("Also, some tecnologies like React, Pandas, SpringBoot, Bootstrap, Thymeleaf, Nest.JS, Next.JS, Postgree");
         System.out.println("-======================@==========================-\n");
       }
 
     public void GoodBye() {
         System.out.println("\n-======================@==========================-");
         System.out.println("Thanks for visiting my profile!");
-        System.out.println("See you soon, buddy!");
+        System.out.println("See you soon, my dear! :) ");
         System.out.println("-======================@==========================-\n");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Ray myself = new Ra();
+        Ray myself = new Ray();
         myself.HeyThere();
         myself.GoodBye();
     }
